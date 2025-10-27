@@ -1,0 +1,34 @@
+{
+  "name": "EmbodX - Construction AI (by SpatioSense)",
+  "short_name": "EmbodX",
+  "description": "Advanced construction management platform with AI-powered defect detection and project monitoring",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/embodx-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/embodx-logo.svg",
+      "sizes": "128x128",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["construction", "productivity", "business"],
+  "lang": "en",
+  "orientation": "portrait-primary"
+}

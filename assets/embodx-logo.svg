@@ -1,0 +1,40 @@
+<svg width="452" height="176" viewBox="0 0 452 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#20B2AA" stop-opacity="1" />
+      <stop offset="100%" stop-color="#3B5BFD" stop-opacity="1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="452" height="176" rx="30" fill="#1A1C23" stroke="#2A2D32" stroke-width="1"/>
+
+  <!-- Main Logo Text -->
+  <text x="226" y="102" text-anchor="middle" font-family="Inter, sans-serif" font-size="64" font-weight="800" fill="url(#logoGradient)" filter="url(#glow)">
+    EmbodX
+  </text>
+
+  <!-- Small Subtitle -->
+  <text x="226" y="132" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="500" fill="#B6B8C2">
+    by SpatioSense
+  </text>
+
+  <!-- Decorative Elements -->
+  <circle cx="80" cy="50" r="3" fill="#20B2AA" opacity="0.6"/>
+  <circle cx="372" cy="50" r="3" fill="#3B5BFD" opacity="0.6"/>
+  <circle cx="80" cy="126" r="2" fill="#20B2AA" opacity="0.4"/>
+  <circle cx="372" cy="126" r="2" fill="#3B5BFD" opacity="0.4"/>
+
+  <!-- Tech Pattern -->
+  <rect x="50" y="30" width="2" height="20" fill="#20B2AA" opacity="0.3"/>
+  <rect x="400" y="30" width="2" height="20" fill="#3B5BFD" opacity="0.3"/>
+  <rect x="50" y="126" width="2" height="20" fill="#20B2AA" opacity="0.3"/>
+  <rect x="400" y="126" width="2" height="20" fill="#3B5BFD" opacity="0.3"/>
+</svg>
