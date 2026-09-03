@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=no">
+  <title>EmbodX</title>
+
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      font-family: sans-serif;
+      background: #020617;
+    }
+
+    #spatiosense-embodx-root {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #020617;
+    }
+
+    #spatiosense-embodx-canvas {
+      display: block;
+      width: 100%;
+      height: 100%;
+      touch-action: none;
+    }
+
+    .attribution {
+      position:fixed; bottom:8px; left:10px; font-size:12px;
+      color:rgba(255,255,255,0.7); background:rgba(0,0,0,0.4);
+      padding:4px 6px; border-radius:4px; z-index:1000; pointer-events:none;
+    }
+    .attribution a { color:rgba(255,255,255,0.85); text-decoration:none; pointer-events:auto; }
+    .attribution a:hover { text-decoration:underline; }
+  </style>
+
+  
+  
+  <!-- data-bin="embodx" -->
+  
+<script type="module">
+async function __trunkInitializer(init, source, sourceSize, initializer, initWithObject) {
+  if (initializer === undefined) {
+    return await init(initWithObject ? { module_or_path: source } : source);
+  }
+
+  const {
+    onStart, onProgress, onComplete, onSuccess, onFailure
+  } = initializer;
+
+  onStart?.();
+
+  const response = fetch(source)
+      .then((response) => {
+        const reader = response.body.getReader();
+        const headers = response.headers;
+        const status = response.status;
+        const statusText = response.statusText;
+
+        const total = sourceSize;
+        let current = 0;
+
+        const stream = new ReadableStream({
+          start(controller) {
+            function push() {
+              reader.read().then(({done, value}) => {
+                if (done) {
+                  onProgress?.({current: total, total});
+                  controller.close();
+                  return;
+                }
+
+                current += value.byteLength;
+                onProgress?.({current, total});
+                controller.enqueue(value);
+                push();
+              });
+            }
+
+            push();
+          },
+        });
+
+        return {
+          stream, init: {
+            headers, status, statusText
+          }
+        };
+      })
+      .then(({stream, init}) =>
+          new Response(stream, init),
+      );
+
+  return init(initWithObject ? { module_or_path: response } : response)
+      .then((value) => {
+        onComplete?.();
+        onSuccess?.(value);
+        return value;
+      }, (reason) => {
+        onComplete?.();
+        onFailure?.(reason);
+        return reason;
+      });
+}
+
+
+import init, * as bindings from './embodx-75c9f1e8c0787831.js';
+import initializer from './3533add24feff73a-initializer.mjs';
+
+const wasm = await __trunkInitializer(init, './embodx-75c9f1e8c0787831_bg.wasm', 42204858, initializer(), true);
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+<link rel="modulepreload" href="./embodx-75c9f1e8c0787831.js" crossorigin="anonymous" integrity="sha384-g68tvEmYaoEYQuZb1qBC1UZxbofA1Rg0W7uTy0Q5e+mn8WWaua7RAWD4XjnoNLy+"><link rel="modulepreload" href="./3533add24feff73a-initializer.mjs" crossorigin="anonymous" integrity="sha384-18C/8vEUXW4hmZx4mDGgnncd7/wXjLOfA0+ronZXl9aVz7zt31H0ahLcDwgXqb48"><link rel="preload" href="./embodx-75c9f1e8c0787831_bg.wasm" crossorigin="anonymous" integrity="sha384-ZXjUCob7DMOvMXAEuiMKyPV/l8m2xt9kFdK5P5usxbT68W/lO5PVwKPOLCLD9D1k" as="fetch" type="application/wasm"></head>
+
+<body>
+  <script>
+    window.__EMBODX_CANVAS_SELECTOR__ ??= "#spatiosense-embodx-canvas";
+    document.addEventListener("contextmenu", (e) => {
+      if (e.target instanceof HTMLCanvasElement) {
+        e.preventDefault();
+      }
+    });
+  </script>
+  <div id="spatiosense-embodx-root">
+    <canvas id="spatiosense-embodx-canvas"></canvas>
+  </div>
+</body>
+</html>
