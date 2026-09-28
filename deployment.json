@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "channel": "prod",
+  "source": {
+    "commit": "8f65aa069dfd9319af824442d85ad71d70008d97",
+    "branch": "main",
+    "dirty": false
+  },
+  "build": {
+    "timestamp": "2026-09-28T02:33:41.430Z",
+    "artifactHash": "sha256:800c66e869c72aa0c95941a237880c0e607a2b73f0bb34c74ac9114695ff3eb9"
+  }
+}
