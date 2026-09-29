@@ -1,11 +1,17 @@
 {
-  "schema": 1,
+  "schema": 2,
   "profile": "release",
   "backends": [
     "webgpu",
     "webgl"
   ],
-  "sourceHash": "sha256:46cf36be76baefa7f48b10b738d0044822d7af2df649cc692b3038303ef30285",
+  "sourceHash": "sha256:b07a5d0be5ce13f84b1f518ec8f3055c608dd4cf0f31d5b1006efdc6c0dd3a50",
+  "build": {
+    "commit": "7929ca2f16f9780a3911ce25280bdc4050fc4b55",
+    "branch": "main",
+    "dirtyAtStart": false,
+    "startedAt": "2026-09-29T05:43:23.929Z"
+  },
   "artifacts": [
     {
       "path": "index.html",
@@ -24,16 +30,16 @@
       "sha256": "0a46c51d7611c4946b6517b070bd0a7b05a0717666a6d73b5cc025b4caa65864"
     },
     {
-      "path": "webgl/embodx-4f68b7e9ad54a0e2_bg.wasm",
-      "sha256": "46e621b41326631f79484994402eff132bc7d6ca0dc2950deae75e56c9f92005"
+      "path": "webgl/embodx-f2fdd304c7cecb76_bg.wasm",
+      "sha256": "0abbb683460d8a853e130176d9dfad304f9fd67d1cea5021e9c97c0eea84bf5d"
     },
     {
-      "path": "webgl/embodx-4f68b7e9ad54a0e2.js",
-      "sha256": "b2e3d9dbed606716e0632076e17bc9aeafddd5315d9ed9d185ac1a6393bd3723"
+      "path": "webgl/embodx-f2fdd304c7cecb76.js",
+      "sha256": "2c3aa7dca9a0fb24042dfa216a94edc1e5c2456bc3585fd50187ea2346e04bb1"
     },
     {
       "path": "webgl/index.html",
-      "sha256": "5ae73fb55fd0faca10f93cdef024181fe8624fb9007103bf9db73f1713d70b51"
+      "sha256": "f27103c6984a980bb586eeec2d0119bc4023d8cfdb5cff9c3346d6f7662ab715"
     },
     {
       "path": "webgpu/3533add24feff73a-initializer.mjs",
@@ -48,16 +54,16 @@
       "sha256": "0a46c51d7611c4946b6517b070bd0a7b05a0717666a6d73b5cc025b4caa65864"
     },
     {
-      "path": "webgpu/embodx-a5d1b4f9771a2299_bg.wasm",
-      "sha256": "707cd9f3f5814f282ce593deef595bd3298c521a60a42d3fe09cd3434ebe531e"
+      "path": "webgpu/embodx-91188777f91c8165_bg.wasm",
+      "sha256": "ca511f74ef88ee9eecd44096711a995d156d3296e2e13e6097164cf60cecb0a1"
     },
     {
-      "path": "webgpu/embodx-a5d1b4f9771a2299.js",
-      "sha256": "9f7a7ef66aff5cb48e437838a79372f079aca54823e214ef91e5e01d75826074"
+      "path": "webgpu/embodx-91188777f91c8165.js",
+      "sha256": "6968828dd0d814f3f9b8b4b0079ed42269a0221b7c5c95ced77b1c4b6a38ed39"
     },
     {
       "path": "webgpu/index.html",
-      "sha256": "a6e5c49f0cae6d207933b8df2074f6f00ddf321938108ca7d91121aef9751438"
+      "sha256": "fa690f8c271a8c561b4e819b208af0913c7822e45d3a9688ef9d509f1d0b5bf4"
     }
   ]
 }
