@@ -5,7 +5,7 @@
     "webgpu",
     "webgl"
   ],
-  "sourceHash": "sha256:8050c457c024159ecefd3fe110d3745540ed108ba3b176e6b0ba45925fe7a1c3",
+  "sourceHash": "sha256:46cf36be76baefa7f48b10b738d0044822d7af2df649cc692b3038303ef30285",
   "artifacts": [
     {
       "path": "index.html",
@@ -24,16 +24,16 @@
       "sha256": "0a46c51d7611c4946b6517b070bd0a7b05a0717666a6d73b5cc025b4caa65864"
     },
     {
-      "path": "webgl/embodx-3f8baadf01e2e630_bg.wasm",
-      "sha256": "2078fe81f31dd6a633f3b8557756ecf0883ef0f3c46e9aec27bd3c780ab79662"
+      "path": "webgl/embodx-4f68b7e9ad54a0e2_bg.wasm",
+      "sha256": "46e621b41326631f79484994402eff132bc7d6ca0dc2950deae75e56c9f92005"
     },
     {
-      "path": "webgl/embodx-3f8baadf01e2e630.js",
-      "sha256": "6135cb45fe137188158f42f63bdaa837b0f00d9bbd813b75379193c6b7a92eb6"
+      "path": "webgl/embodx-4f68b7e9ad54a0e2.js",
+      "sha256": "b2e3d9dbed606716e0632076e17bc9aeafddd5315d9ed9d185ac1a6393bd3723"
     },
     {
       "path": "webgl/index.html",
-      "sha256": "32db783661e19820c5320a6623632c45f9de271252c689bcc4ad75e9a3b3b34e"
+      "sha256": "5ae73fb55fd0faca10f93cdef024181fe8624fb9007103bf9db73f1713d70b51"
     },
     {
       "path": "webgpu/3533add24feff73a-initializer.mjs",
@@ -48,16 +48,16 @@
       "sha256": "0a46c51d7611c4946b6517b070bd0a7b05a0717666a6d73b5cc025b4caa65864"
     },
     {
-      "path": "webgpu/embodx-bab7b0f78f3397c4_bg.wasm",
-      "sha256": "70366f71f4fc1d4a5fbbe3eccb2266da80f13f5d3853369b9c9d8debbd820f84"
+      "path": "webgpu/embodx-a5d1b4f9771a2299_bg.wasm",
+      "sha256": "707cd9f3f5814f282ce593deef595bd3298c521a60a42d3fe09cd3434ebe531e"
     },
     {
-      "path": "webgpu/embodx-bab7b0f78f3397c4.js",
-      "sha256": "a3b34a13bfc3872570ee2290f179da96f22969fba42315aa3f4eae17d3501348"
+      "path": "webgpu/embodx-a5d1b4f9771a2299.js",
+      "sha256": "9f7a7ef66aff5cb48e437838a79372f079aca54823e214ef91e5e01d75826074"
     },
     {
       "path": "webgpu/index.html",
-      "sha256": "e0c932d3218f4b2b63dfe179eca2f9068cecbfa5218c5a23e526ce220b6e3f9b"
+      "sha256": "a6e5c49f0cae6d207933b8df2074f6f00ddf321938108ca7d91121aef9751438"
     }
   ]
 }

@@ -2,12 +2,12 @@
   "schema": 1,
   "channel": "prod",
   "source": {
-    "commit": "8f65aa069dfd9319af824442d85ad71d70008d97",
+    "commit": "cfe17f7fd0e1a3ed9b20dcf1035674bf8673ff42",
     "branch": "main",
     "dirty": false
   },
   "build": {
-    "timestamp": "2026-09-28T02:33:41.430Z",
-    "artifactHash": "sha256:800c66e869c72aa0c95941a237880c0e607a2b73f0bb34c74ac9114695ff3eb9"
+    "timestamp": "2026-09-29T05:13:39.874Z",
+    "artifactHash": "sha256:ea16d93ea6505405af921f733f0206f0149dcd32b3b87f2e45ff791b801b7159"
   }
 }
