@@ -1,4 +1,4 @@
-import{r as wa,j as np}from"./index-CWx0ZiH8.js";/**
+import{r as wa,j as np}from"./index-C1jfRSnE.js";/**
  * @license
  * Copyright 2010-2026 Three.js Authors
  * SPDX-License-Identifier: MIT
