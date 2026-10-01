@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=no">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <title>EmbodX</title>
 
   <style>
@@ -15,6 +15,16 @@
       overflow: hidden;
       font-family: sans-serif;
       background: #020617;
+    }
+
+    body {
+      /* Keep Bevy's parent inside the visible browser area, including on phones.
+         In an iframe these viewport units follow the host-provided frame size. */
+      height: 100vh;
+      height: 100dvh;
+      box-sizing: border-box;
+      padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px)
+        env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
     }
 
     #spatiosense-embodx-root {
@@ -111,10 +121,10 @@ async function __trunkInitializer(init, source, sourceSize, initializer, initWit
 }
 
 
-import init, * as bindings from './embodx-f8a4665f321290d7.js';
+import init, * as bindings from './embodx-f5d1e6ea6e372a60.js';
 import initializer from './3533add24feff73a-initializer.mjs';
 
-const wasm = await __trunkInitializer(init, './embodx-f8a4665f321290d7_bg.wasm', 50532661, initializer(), true);
+const wasm = await __trunkInitializer(init, './embodx-f5d1e6ea6e372a60_bg.wasm', 50926598, initializer(), true);
 
 
 window.wasmBindings = bindings;
@@ -123,7 +133,7 @@ window.wasmBindings = bindings;
 dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
 
 </script>
-<link rel="modulepreload" href="./embodx-f8a4665f321290d7.js" crossorigin="anonymous" integrity="sha384-62FTcxGs+RiMqYGWnuUcjeFBBnaapy63DowTklLaBjUn1+PwjoySgoJ9GU+UNKwM"><link rel="modulepreload" href="./3533add24feff73a-initializer.mjs" crossorigin="anonymous" integrity="sha384-18C/8vEUXW4hmZx4mDGgnncd7/wXjLOfA0+ronZXl9aVz7zt31H0ahLcDwgXqb48"><link rel="preload" href="./embodx-f8a4665f321290d7_bg.wasm" crossorigin="anonymous" integrity="sha384-7uFFVzXlTcUWdChE1O58dXgiueGkSByQxX7AiAh8sRigcr4eI5hhKFgMQvfgcvLF" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="./embodx-f5d1e6ea6e372a60.js" crossorigin="anonymous" integrity="sha384-xU5am5TACy14H8An62uDxOLYt+tz6+aMcgnOesGsXeYh8lzsuS73gPqh19TU6iL+"><link rel="modulepreload" href="./3533add24feff73a-initializer.mjs" crossorigin="anonymous" integrity="sha384-18C/8vEUXW4hmZx4mDGgnncd7/wXjLOfA0+ronZXl9aVz7zt31H0ahLcDwgXqb48"><link rel="preload" href="./embodx-f5d1e6ea6e372a60_bg.wasm" crossorigin="anonymous" integrity="sha384-DIaIvsK7yAEYX3eLAx0EXO6Jk8g+xDS15XM6FzD983rpwSGSUqkKP7+2pCCJX8AJ" as="fetch" type="application/wasm"></head>
 
 <body>
   <script>
