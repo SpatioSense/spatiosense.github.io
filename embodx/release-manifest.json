@@ -5,12 +5,12 @@
     "webgpu",
     "webgl"
   ],
-  "sourceHash": "sha256:35c8cea2883bb2fb35f1137abc085c601cd9a03c04868de09a4ebbe37135d12b",
+  "sourceHash": "sha256:32e0aa2dd5a7eab4a525599dfec214e9dcb4bf003b1fad9197fe9a1fd7eaa0d2",
   "build": {
-    "commit": "ab6bb450e14ea94c1e4e7347202d5151b334181a",
+    "commit": "e7297dc43a4045e5eacde633425c37e5a76d28f2",
     "branch": "main",
     "dirtyAtStart": true,
-    "startedAt": "2026-10-01T08:01:02.702Z"
+    "startedAt": "2026-10-02T07:17:15.827Z"
   },
   "artifacts": [
     {
@@ -30,16 +30,36 @@
       "sha256": "0a46c51d7611c4946b6517b070bd0a7b05a0717666a6d73b5cc025b4caa65864"
     },
     {
-      "path": "webgl/embodx-f5d1e6ea6e372a60_bg.wasm",
-      "sha256": "e0736fd347a5057dfa8cfbaa85fc78173506da4adabdc9a8b21935b9eb3c3152"
+      "path": "webgl/embodx-a4ab5df8c4f5f996_bg.wasm",
+      "sha256": "6aeb339d1dad7f7ede1a0272fcc5fab31da23ac212d2e1e191cd2bff48d30860"
     },
     {
-      "path": "webgl/embodx-f5d1e6ea6e372a60.js",
-      "sha256": "2a82fdf70dc651687c68dbc2ac9f69d615f1ddd274e228ff6344dd775aba613c"
+      "path": "webgl/embodx-a4ab5df8c4f5f996.js",
+      "sha256": "42228061a699a4a21837b0cc8847843365da1b134aad79650a3a72b9f0cbe8ee"
     },
     {
       "path": "webgl/index.html",
-      "sha256": "5e539f109f0bb2a0dd239b99ed13239e0eed1964e7c81e123bb7bc8dd8bfd063"
+      "sha256": "bc54096719fc7c13ef1b8e7b40b5a1ef765099bc0c9561ff138e29c790abe376"
+    },
+    {
+      "path": "webgl/snippets/embodx-36cc021a88c3ee36/src/gaussian_splatting/splat_link/lod/codec_jobs.mjs",
+      "sha256": "8aaf752d0e3a4774259bcc2a213dc9860c3b7b7120eb0dcd504ef3cc2d1102d2"
+    },
+    {
+      "path": "webgl/sog-codec/snippets/embodx-36cc021a88c3ee36/src/gaussian_splatting/splat_link/lod/codec_jobs.mjs",
+      "sha256": "8aaf752d0e3a4774259bcc2a213dc9860c3b7b7120eb0dcd504ef3cc2d1102d2"
+    },
+    {
+      "path": "webgl/sog-codec/sog_codec_bg.wasm",
+      "sha256": "4c5faacc2054656994677ccc8b996cfd8cbf267cf6854b1c3e738718774a2ea0"
+    },
+    {
+      "path": "webgl/sog-codec/sog_codec.js",
+      "sha256": "82af4f260ef7d9821ca5c096e4d21682e96da280c11e384c8055b943ab74dcf0"
+    },
+    {
+      "path": "webgl/sog-decode-worker.mjs",
+      "sha256": "3ba7c08cf28060b8b5e37fd788fa1aee57d5eb52b8b9457f80c08f64a3ea2f4e"
     },
     {
       "path": "webgpu/3533add24feff73a-initializer.mjs",
@@ -54,16 +74,32 @@
       "sha256": "0a46c51d7611c4946b6517b070bd0a7b05a0717666a6d73b5cc025b4caa65864"
     },
     {
-      "path": "webgpu/embodx-29e13fc8b546a79_bg.wasm",
-      "sha256": "4d90e443614adb156ce954c91f10ae4f3ddfb94ac5acab006445bb8f868cdc32"
+      "path": "webgpu/embodx-c8b5c805d45faf83_bg.wasm",
+      "sha256": "bc3bb4d69b94cd77383f37d002398108ea04168d342fde93ea4a88c3b708d481"
     },
     {
-      "path": "webgpu/embodx-29e13fc8b546a79.js",
-      "sha256": "2abe14695cf2c9538c48cecb42d9b782b8522d9433deb2d67db14bd284ff2609"
+      "path": "webgpu/embodx-c8b5c805d45faf83.js",
+      "sha256": "8e288066af8aa42d7a52e1bfbfc4e061f58ccb36898f7c9b7d1bd5eda27268bc"
     },
     {
       "path": "webgpu/index.html",
-      "sha256": "db3184fe41e7f3a7925511a17cecd725133615fc9890278454a9359296bfbb78"
+      "sha256": "a4c92ee96400c5672c31a52ee6c87619279a4373c6b0d7247236e5e096848895"
+    },
+    {
+      "path": "webgpu/snippets/embodx-36cc021a88c3ee36/src/gaussian_splatting/splat_link/lod/codec_jobs.mjs",
+      "sha256": "8aaf752d0e3a4774259bcc2a213dc9860c3b7b7120eb0dcd504ef3cc2d1102d2"
+    },
+    {
+      "path": "webgpu/sog-codec/sog_codec_bg.wasm",
+      "sha256": "4c5faacc2054656994677ccc8b996cfd8cbf267cf6854b1c3e738718774a2ea0"
+    },
+    {
+      "path": "webgpu/sog-codec/sog_codec.js",
+      "sha256": "82af4f260ef7d9821ca5c096e4d21682e96da280c11e384c8055b943ab74dcf0"
+    },
+    {
+      "path": "webgpu/sog-decode-worker.mjs",
+      "sha256": "3ba7c08cf28060b8b5e37fd788fa1aee57d5eb52b8b9457f80c08f64a3ea2f4e"
     }
   ]
 }
