@@ -4,6 +4,7 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <title>EmbodX</title>
+  <script>window.__EMBODX_STANDALONE__ = true;</script>
 
   <style>
     html,
@@ -54,7 +55,7 @@
 
   
   
-  <!-- Isolated, opt-in data codec. No Bevy runtime is linked into this worker. -->
+  <!-- Isolated default data codec. No Bevy runtime is linked into this worker. -->
   
   
   <!-- data-bin="embodx" -->
@@ -125,10 +126,10 @@ async function __trunkInitializer(init, source, sourceSize, initializer, initWit
 }
 
 
-import init, * as bindings from './embodx-c8b5c805d45faf83.js';
+import init, * as bindings from './embodx-229e34834282a84.js';
 import initializer from './3533add24feff73a-initializer.mjs';
 
-const wasm = await __trunkInitializer(init, './embodx-c8b5c805d45faf83_bg.wasm', 53049524, initializer(), true);
+const wasm = await __trunkInitializer(init, './embodx-229e34834282a84_bg.wasm', 38609417, initializer(), true);
 
 
 window.wasmBindings = bindings;
@@ -137,7 +138,7 @@ window.wasmBindings = bindings;
 dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
 
 </script>
-<link rel="modulepreload" href="./embodx-c8b5c805d45faf83.js" crossorigin="anonymous" integrity="sha384-JusoHYAO1n9jKBUAcIs0xW7U1CHv8gyu0GsZdpKxuOE9bpvkPLHzIuPX6GLfsVpb"><link rel="modulepreload" href="./snippets/embodx-36cc021a88c3ee36/src/gaussian_splatting/splat_link/lod/codec_jobs.mjs" crossorigin="anonymous" integrity="sha384-rH2D+y0+Oz+y53hLLBOS/OhODRhZLrlRJtw6eHr250wYZvkntNeHZhrTJwA016NP"><link rel="modulepreload" href="./3533add24feff73a-initializer.mjs" crossorigin="anonymous" integrity="sha384-18C/8vEUXW4hmZx4mDGgnncd7/wXjLOfA0+ronZXl9aVz7zt31H0ahLcDwgXqb48"><link rel="preload" href="./embodx-c8b5c805d45faf83_bg.wasm" crossorigin="anonymous" integrity="sha384-VqqRdXHyRc/XCdSMHOV5IfO8DL6Z3oP5Nme+hD4ULh926KMvLpi4G14ntiRTcOdX" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="./embodx-229e34834282a84.js" crossorigin="anonymous" integrity="sha384-qOICPnUhQtXRSr4sgqF9+jtxz6epfso071N5yXfofGtk7StA4yOn0b/saJz53F6M"><link rel="modulepreload" href="./snippets/embodx-36cc021a88c3ee36/src/gaussian_splatting/splat_link/lod/codec_jobs.mjs" crossorigin="anonymous" integrity="sha384-BLHtDfvBZT3kVhmaBGgWrIy3KHNMG+vrCjbtoCpLGZD21k91zO+jswKwUOE+WSCB"><link rel="modulepreload" href="./snippets/embodx-36cc021a88c3ee36/src/browser_menu.mjs" crossorigin="anonymous" integrity="sha384-lbZMedTUTCq9iXZ/1xytjm3xIVJpUm4xNO5HwA0bWI/CiCDU6/NhnuZy9gOOUJkA"><link rel="modulepreload" href="./3533add24feff73a-initializer.mjs" crossorigin="anonymous" integrity="sha384-18C/8vEUXW4hmZx4mDGgnncd7/wXjLOfA0+ronZXl9aVz7zt31H0ahLcDwgXqb48"><link rel="preload" href="./embodx-229e34834282a84_bg.wasm" crossorigin="anonymous" integrity="sha384-O/QdhvHiXwloWF1PigOj8xzBpj47EHUfnSKxMDff3jja5BsqLnC/qqdex6weYJhA" as="fetch" type="application/wasm"></head>
 
 <body>
   <script>
