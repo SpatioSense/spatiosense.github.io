@@ -5,12 +5,12 @@
     "webgpu",
     "webgl"
   ],
-  "sourceHash": "sha256:4284fcff7c6256e8d6ac16f9ca718c481239f39325a9ba5870738ce610fcce46",
+  "sourceHash": "sha256:35da7b4b1b8f9a2d4d645ac88577b88a36f9e534ade52de8ca8f7a0a0385c1fe",
   "build": {
-    "commit": "10b49c7978949807f2ab181c0c009753dd13cf47",
+    "commit": "c31ebf568d6a51e3cfecfb57e0e3f18cde8e1a0b",
     "branch": "main",
     "dirtyAtStart": true,
-    "startedAt": "2026-10-12T02:58:32.867Z",
+    "startedAt": "2026-10-12T04:43:38.433Z",
     "lto": "thin"
   },
   "artifacts": [
@@ -71,16 +71,24 @@
       "sha256": "c6f521cb727d929373c152ca48ae66cb6c08d3ab1b74f5dcfe24d2303585e01a"
     },
     {
-      "path": "webgl/embodx-526e532e13dde69e_bg.wasm",
-      "sha256": "63c2f85966dc9793e439236a1be540f128b8a8878ba475f2f0362b5ac706727b"
+      "path": "webgl/assets/obj/cam-avatar.glb",
+      "sha256": "f312e093f8fa28808885a01886e55995d793202a5cefa2c6a2e4402b1211e515"
     },
     {
-      "path": "webgl/embodx-526e532e13dde69e.js",
+      "path": "webgl/assets/obj/cam-cursor.glb",
+      "sha256": "77bdcceece4a72f12e4578bbbc8bcf49a58d178a7310b507ece0f4f78cad5757"
+    },
+    {
+      "path": "webgl/embodx-86b07a33d29b9d2d_bg.wasm",
+      "sha256": "ec77e0e6258c292c9e1ac9c66c9abb892105eaf64c5cddb3313a4603cd2c639c"
+    },
+    {
+      "path": "webgl/embodx-86b07a33d29b9d2d.js",
       "sha256": "7d9e695895f4a637fa2c0abbb53fc540409855184ceddb252af1315979c48909"
     },
     {
       "path": "webgl/index.html",
-      "sha256": "ab54c21f785d3a192d24ec11b82131d81949023bfa65e6d8d39f427bc0a3a698"
+      "sha256": "9450198e063192986d451be47aec9eb9a37846c3a7bec6f16d899371a31d2dd4"
     },
     {
       "path": "webgl/snippets/embodx-36cc021a88c3ee36/src/browser_menu.mjs",
@@ -163,16 +171,24 @@
       "sha256": "c6f521cb727d929373c152ca48ae66cb6c08d3ab1b74f5dcfe24d2303585e01a"
     },
     {
-      "path": "webgpu/embodx-1a8a6c15bbe71fb5_bg.wasm",
-      "sha256": "3bfec49bda8b931f3c590bc3c1e9f2c277d1b9616c0e9c5a076878d9e459e6c1"
+      "path": "webgpu/assets/obj/cam-avatar.glb",
+      "sha256": "f312e093f8fa28808885a01886e55995d793202a5cefa2c6a2e4402b1211e515"
     },
     {
-      "path": "webgpu/embodx-1a8a6c15bbe71fb5.js",
+      "path": "webgpu/assets/obj/cam-cursor.glb",
+      "sha256": "77bdcceece4a72f12e4578bbbc8bcf49a58d178a7310b507ece0f4f78cad5757"
+    },
+    {
+      "path": "webgpu/embodx-8ae2a79b0544421_bg.wasm",
+      "sha256": "7bd8204775c54f1f8a6a9fe9ec6032287753eb3519efc36bb0a12a2ba6a6baa4"
+    },
+    {
+      "path": "webgpu/embodx-8ae2a79b0544421.js",
       "sha256": "11d5573b81dc14b96e14ad8f726b1c25aa503a3fdf3b3637526e363f9ede016d"
     },
     {
       "path": "webgpu/index.html",
-      "sha256": "2b147a0972d6f3fd131b3e84ac7c23cff99ed9e219f9fc876af6afb9f5551d19"
+      "sha256": "102311f183842587cbf86e1a0992532affb71bacf6065488cbc8198c13ebab52"
     },
     {
       "path": "webgpu/snippets/embodx-36cc021a88c3ee36/src/browser_menu.mjs",

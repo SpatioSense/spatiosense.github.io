@@ -55,6 +55,8 @@
 
   
   
+  
+  
   <!-- Isolated default data codec. No Bevy runtime is linked into this worker. -->
   
   
@@ -126,10 +128,10 @@ async function __trunkInitializer(init, source, sourceSize, initializer, initWit
 }
 
 
-import init, * as bindings from './embodx-526e532e13dde69e.js';
+import init, * as bindings from './embodx-86b07a33d29b9d2d.js';
 import initializer from './3533add24feff73a-initializer.mjs';
 
-const wasm = await __trunkInitializer(init, './embodx-526e532e13dde69e_bg.wasm', 34407969, initializer(), true);
+const wasm = await __trunkInitializer(init, './embodx-86b07a33d29b9d2d_bg.wasm', 34407969, initializer(), true);
 
 
 window.wasmBindings = bindings;
@@ -139,7 +141,7 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
 
 </script>
 <meta name="embodx-lto" content="thin">
-<link rel="modulepreload" href="./embodx-526e532e13dde69e.js" crossorigin="anonymous" integrity="sha384-zI2J5kiPCbURj/VR8mdClV6jLQoMk9r08cdNxIRjF9H/Kg/rabaCaPvyniPJiP3k"><link rel="modulepreload" href="./snippets/embodx-36cc021a88c3ee36/src/gaussian_splatting/splat_link/lod/codec_jobs.mjs" crossorigin="anonymous" integrity="sha384-BLHtDfvBZT3kVhmaBGgWrIy3KHNMG+vrCjbtoCpLGZD21k91zO+jswKwUOE+WSCB"><link rel="modulepreload" href="./snippets/embodx-36cc021a88c3ee36/src/browser_menu.mjs" crossorigin="anonymous" integrity="sha384-lbZMedTUTCq9iXZ/1xytjm3xIVJpUm4xNO5HwA0bWI/CiCDU6/NhnuZy9gOOUJkA"><link rel="modulepreload" href="./3533add24feff73a-initializer.mjs" crossorigin="anonymous" integrity="sha384-18C/8vEUXW4hmZx4mDGgnncd7/wXjLOfA0+ronZXl9aVz7zt31H0ahLcDwgXqb48"><link rel="preload" href="./embodx-526e532e13dde69e_bg.wasm" crossorigin="anonymous" integrity="sha384-NT/a6o1u4TMYBYjG7WJpW48TZS/PPOq2wg6ppmpc4f00cKeSiFEQTYSg/kGk4N3+" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="./embodx-86b07a33d29b9d2d.js" crossorigin="anonymous" integrity="sha384-zI2J5kiPCbURj/VR8mdClV6jLQoMk9r08cdNxIRjF9H/Kg/rabaCaPvyniPJiP3k"><link rel="modulepreload" href="./snippets/embodx-36cc021a88c3ee36/src/browser_menu.mjs" crossorigin="anonymous" integrity="sha384-lbZMedTUTCq9iXZ/1xytjm3xIVJpUm4xNO5HwA0bWI/CiCDU6/NhnuZy9gOOUJkA"><link rel="modulepreload" href="./snippets/embodx-36cc021a88c3ee36/src/gaussian_splatting/splat_link/lod/codec_jobs.mjs" crossorigin="anonymous" integrity="sha384-BLHtDfvBZT3kVhmaBGgWrIy3KHNMG+vrCjbtoCpLGZD21k91zO+jswKwUOE+WSCB"><link rel="modulepreload" href="./3533add24feff73a-initializer.mjs" crossorigin="anonymous" integrity="sha384-18C/8vEUXW4hmZx4mDGgnncd7/wXjLOfA0+ronZXl9aVz7zt31H0ahLcDwgXqb48"><link rel="preload" href="./embodx-86b07a33d29b9d2d_bg.wasm" crossorigin="anonymous" integrity="sha384-/QsTmBZ1Zp2pfjCDFDlA7FZNF1u1SeTEQ8uxU/Kyr6hEjB3Q750ZjsTayEyHvP3s" as="fetch" type="application/wasm"></head>
 
 <body>
   <script>
