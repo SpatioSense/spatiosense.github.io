@@ -5,12 +5,13 @@
     "webgpu",
     "webgl"
   ],
-  "sourceHash": "sha256:82717156b59aa2939fab8aaf661527d2cfdf6a6b34843780d11c1e3792d7e25a",
+  "sourceHash": "sha256:4284fcff7c6256e8d6ac16f9ca718c481239f39325a9ba5870738ce610fcce46",
   "build": {
-    "commit": "3be7f56fd05915d7772dd27c4cc43f85e894c162",
+    "commit": "10b49c7978949807f2ab181c0c009753dd13cf47",
     "branch": "main",
-    "dirtyAtStart": false,
-    "startedAt": "2026-10-09T04:04:53.552Z"
+    "dirtyAtStart": true,
+    "startedAt": "2026-10-12T02:58:32.867Z",
+    "lto": "thin"
   },
   "artifacts": [
     {
@@ -22,8 +23,44 @@
       "sha256": "cce663bdda79c54bc3d438933f81ab5f4659d31711b13a175bbcb2dd53249e5b"
     },
     {
-      "path": "webgl/assets/fonts/CaskaydiaCoveNerdFont-Regular.ttf",
-      "sha256": "701d7ec08f58f07251c1758361c5d1ab57ba0a867dd378cbb0fa52e1d2beccad"
+      "path": "webgl/assets/fonts/fira-bevy-0.19.1/FiraMono-LICENSE",
+      "sha256": "dd6c2808925cc92548634cb06c25b933f280eff90b181d381eb8b8879222458a"
+    },
+    {
+      "path": "webgl/assets/fonts/fira-bevy-0.19.1/FiraMono-Medium.ttf",
+      "sha256": "5f9173ce3d05fadef74c7eed06570d54e4f75bd0cd9860726fb2987a7f848292"
+    },
+    {
+      "path": "webgl/assets/fonts/fira-bevy-0.19.1/FiraSans-Bold.ttf",
+      "sha256": "74b477a3e2b7c745e6dac8c01764c8fd82e53763b47ef1eccd24dce36d2ff71f"
+    },
+    {
+      "path": "webgl/assets/fonts/fira-bevy-0.19.1/FiraSans-BoldItalic.ttf",
+      "sha256": "8049b15ea03da7982db1152a9927911c47e0a92dc5ed434fa329b143a99b6adb"
+    },
+    {
+      "path": "webgl/assets/fonts/fira-bevy-0.19.1/FiraSans-Italic.ttf",
+      "sha256": "e48b22ba7f2eab682501ba01b3ddfdbf65dadfafa74d9b2efe1879eb949b5c69"
+    },
+    {
+      "path": "webgl/assets/fonts/fira-bevy-0.19.1/FiraSans-License.txt",
+      "sha256": "8dc6df134d761827c7642f7c095ad2a16fb02e8f28ba110a330a717f78be28a1"
+    },
+    {
+      "path": "webgl/assets/fonts/fira-bevy-0.19.1/FiraSans-Regular.ttf",
+      "sha256": "3dabf3d48bf4599f95cffd92f99ea426a014d5311f52a5eb5ec3af265e97cd97"
+    },
+    {
+      "path": "webgl/assets/fonts/lucide-0.563.0.ttf",
+      "sha256": "a535afb87296862f51cf6cfc1bd29e794e7da6353823c2180bbb95877ed663f8"
+    },
+    {
+      "path": "webgl/assets/fonts/Lucide-LICENSE",
+      "sha256": "668dcc52803480e0a026b31140a4cae668772663cd764e5991d252eef03f98db"
+    },
+    {
+      "path": "webgl/assets/fonts/README.md",
+      "sha256": "1f0aa304cda129d58b321fb543d6b1fb9249d468aaaa67c818ec1f90cd67d359"
     },
     {
       "path": "webgl/assets/icons/logo-dark.webp",
@@ -34,16 +71,16 @@
       "sha256": "c6f521cb727d929373c152ca48ae66cb6c08d3ab1b74f5dcfe24d2303585e01a"
     },
     {
-      "path": "webgl/embodx-f29d189c5177a9c7_bg.wasm",
-      "sha256": "8eded808408c41087abbe117d6ce9343f576089f22581bc0ea474a9dd7f76a73"
+      "path": "webgl/embodx-526e532e13dde69e_bg.wasm",
+      "sha256": "63c2f85966dc9793e439236a1be540f128b8a8878ba475f2f0362b5ac706727b"
     },
     {
-      "path": "webgl/embodx-f29d189c5177a9c7.js",
-      "sha256": "e2e7aff79378b801341eef373eb76b282574890af5b81a5473aeb972de6480d0"
+      "path": "webgl/embodx-526e532e13dde69e.js",
+      "sha256": "7d9e695895f4a637fa2c0abbb53fc540409855184ceddb252af1315979c48909"
     },
     {
       "path": "webgl/index.html",
-      "sha256": "b6aa1812ce7205732091468d865b98e1d9e69c0d4d8e0b56893cc758bf70893a"
+      "sha256": "ab54c21f785d3a192d24ec11b82131d81949023bfa65e6d8d39f427bc0a3a698"
     },
     {
       "path": "webgl/snippets/embodx-36cc021a88c3ee36/src/browser_menu.mjs",
@@ -63,7 +100,7 @@
     },
     {
       "path": "webgl/sog-codec/sog_codec_bg.wasm",
-      "sha256": "29e072abd8440da35ca6c082437b35f6d89ebdc1891ed4e96b9ab64301ba59ef"
+      "sha256": "d7e3d880a6603345b38ccb1661ebc00cbf005786c946bbe21b705f85b489eb6f"
     },
     {
       "path": "webgl/sog-codec/sog_codec.js",
@@ -78,8 +115,44 @@
       "sha256": "cce663bdda79c54bc3d438933f81ab5f4659d31711b13a175bbcb2dd53249e5b"
     },
     {
-      "path": "webgpu/assets/fonts/CaskaydiaCoveNerdFont-Regular.ttf",
-      "sha256": "701d7ec08f58f07251c1758361c5d1ab57ba0a867dd378cbb0fa52e1d2beccad"
+      "path": "webgpu/assets/fonts/fira-bevy-0.19.1/FiraMono-LICENSE",
+      "sha256": "dd6c2808925cc92548634cb06c25b933f280eff90b181d381eb8b8879222458a"
+    },
+    {
+      "path": "webgpu/assets/fonts/fira-bevy-0.19.1/FiraMono-Medium.ttf",
+      "sha256": "5f9173ce3d05fadef74c7eed06570d54e4f75bd0cd9860726fb2987a7f848292"
+    },
+    {
+      "path": "webgpu/assets/fonts/fira-bevy-0.19.1/FiraSans-Bold.ttf",
+      "sha256": "74b477a3e2b7c745e6dac8c01764c8fd82e53763b47ef1eccd24dce36d2ff71f"
+    },
+    {
+      "path": "webgpu/assets/fonts/fira-bevy-0.19.1/FiraSans-BoldItalic.ttf",
+      "sha256": "8049b15ea03da7982db1152a9927911c47e0a92dc5ed434fa329b143a99b6adb"
+    },
+    {
+      "path": "webgpu/assets/fonts/fira-bevy-0.19.1/FiraSans-Italic.ttf",
+      "sha256": "e48b22ba7f2eab682501ba01b3ddfdbf65dadfafa74d9b2efe1879eb949b5c69"
+    },
+    {
+      "path": "webgpu/assets/fonts/fira-bevy-0.19.1/FiraSans-License.txt",
+      "sha256": "8dc6df134d761827c7642f7c095ad2a16fb02e8f28ba110a330a717f78be28a1"
+    },
+    {
+      "path": "webgpu/assets/fonts/fira-bevy-0.19.1/FiraSans-Regular.ttf",
+      "sha256": "3dabf3d48bf4599f95cffd92f99ea426a014d5311f52a5eb5ec3af265e97cd97"
+    },
+    {
+      "path": "webgpu/assets/fonts/lucide-0.563.0.ttf",
+      "sha256": "a535afb87296862f51cf6cfc1bd29e794e7da6353823c2180bbb95877ed663f8"
+    },
+    {
+      "path": "webgpu/assets/fonts/Lucide-LICENSE",
+      "sha256": "668dcc52803480e0a026b31140a4cae668772663cd764e5991d252eef03f98db"
+    },
+    {
+      "path": "webgpu/assets/fonts/README.md",
+      "sha256": "1f0aa304cda129d58b321fb543d6b1fb9249d468aaaa67c818ec1f90cd67d359"
     },
     {
       "path": "webgpu/assets/icons/logo-dark.webp",
@@ -90,16 +163,16 @@
       "sha256": "c6f521cb727d929373c152ca48ae66cb6c08d3ab1b74f5dcfe24d2303585e01a"
     },
     {
-      "path": "webgpu/embodx-229e34834282a84_bg.wasm",
-      "sha256": "d3ed60c2e10f32d21f95bb36e5204ad6daeb9415412ac791ed92809faa91fbe9"
+      "path": "webgpu/embodx-1a8a6c15bbe71fb5_bg.wasm",
+      "sha256": "3bfec49bda8b931f3c590bc3c1e9f2c277d1b9616c0e9c5a076878d9e459e6c1"
     },
     {
-      "path": "webgpu/embodx-229e34834282a84.js",
-      "sha256": "4cc24fe44b2217a42199f8216866113938f19fbc18958332fbd9e2e9824fbac9"
+      "path": "webgpu/embodx-1a8a6c15bbe71fb5.js",
+      "sha256": "11d5573b81dc14b96e14ad8f726b1c25aa503a3fdf3b3637526e363f9ede016d"
     },
     {
       "path": "webgpu/index.html",
-      "sha256": "5c02eda30dc7c554ac5c4ec46e797055be31668c36fecab99e8a14d1d98693c8"
+      "sha256": "2b147a0972d6f3fd131b3e84ac7c23cff99ed9e219f9fc876af6afb9f5551d19"
     },
     {
       "path": "webgpu/snippets/embodx-36cc021a88c3ee36/src/browser_menu.mjs",
@@ -110,12 +183,16 @@
       "sha256": "cc50367a07d184249368aa047717435588444fb0ac10b55f7b4b45cc021b6174"
     },
     {
+      "path": "webgpu/sog-codec/snippets/embodx-36cc021a88c3ee36/src/browser_menu.mjs",
+      "sha256": "7defe0635759639a7477789f9c03eb539b65323d900114645c735cec56e815f5"
+    },
+    {
       "path": "webgpu/sog-codec/snippets/embodx-36cc021a88c3ee36/src/gaussian_splatting/splat_link/lod/codec_jobs.mjs",
       "sha256": "cc50367a07d184249368aa047717435588444fb0ac10b55f7b4b45cc021b6174"
     },
     {
       "path": "webgpu/sog-codec/sog_codec_bg.wasm",
-      "sha256": "29e072abd8440da35ca6c082437b35f6d89ebdc1891ed4e96b9ab64301ba59ef"
+      "sha256": "d7e3d880a6603345b38ccb1661ebc00cbf005786c946bbe21b705f85b489eb6f"
     },
     {
       "path": "webgpu/sog-codec/sog_codec.js",
