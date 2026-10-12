@@ -5,12 +5,12 @@
     "webgpu",
     "webgl"
   ],
-  "sourceHash": "sha256:35da7b4b1b8f9a2d4d645ac88577b88a36f9e534ade52de8ca8f7a0a0385c1fe",
+  "sourceHash": "sha256:7139efbadc7fcdaa848286d9a2e145940900ed7ba79a8db88cc58cfae9a21d1b",
   "build": {
     "commit": "c31ebf568d6a51e3cfecfb57e0e3f18cde8e1a0b",
     "branch": "main",
     "dirtyAtStart": true,
-    "startedAt": "2026-10-12T04:43:38.433Z",
+    "startedAt": "2026-10-12T05:46:43.428Z",
     "lto": "thin"
   },
   "artifacts": [
@@ -79,16 +79,20 @@
       "sha256": "77bdcceece4a72f12e4578bbbc8bcf49a58d178a7310b507ece0f4f78cad5757"
     },
     {
-      "path": "webgl/embodx-86b07a33d29b9d2d_bg.wasm",
-      "sha256": "ec77e0e6258c292c9e1ac9c66c9abb892105eaf64c5cddb3313a4603cd2c639c"
+      "path": "webgl/assets/obj/README.md",
+      "sha256": "6f08cbf34346050bcb85297ee8b5147ec3a1be7f215b640086b20a5d7dd25901"
     },
     {
-      "path": "webgl/embodx-86b07a33d29b9d2d.js",
-      "sha256": "7d9e695895f4a637fa2c0abbb53fc540409855184ceddb252af1315979c48909"
+      "path": "webgl/embodx-dc3d8be8d3149cfa_bg.wasm",
+      "sha256": "5b47e26d1b5efed7edda27bbe0abb4d283c7e0ee6c824941c90a69f3e8f611be"
+    },
+    {
+      "path": "webgl/embodx-dc3d8be8d3149cfa.js",
+      "sha256": "d2732712a1d11f362a51591a8fd2dbd7c3f8e5ef3c7655b1f5b74010f2860ec9"
     },
     {
       "path": "webgl/index.html",
-      "sha256": "9450198e063192986d451be47aec9eb9a37846c3a7bec6f16d899371a31d2dd4"
+      "sha256": "e568a61a59fc9cd2715287177f9b5ca06af25afe2f974c5cdf847a4f4a8fde03"
     },
     {
       "path": "webgl/snippets/embodx-36cc021a88c3ee36/src/browser_menu.mjs",
@@ -179,16 +183,20 @@
       "sha256": "77bdcceece4a72f12e4578bbbc8bcf49a58d178a7310b507ece0f4f78cad5757"
     },
     {
-      "path": "webgpu/embodx-8ae2a79b0544421_bg.wasm",
-      "sha256": "7bd8204775c54f1f8a6a9fe9ec6032287753eb3519efc36bb0a12a2ba6a6baa4"
+      "path": "webgpu/assets/obj/README.md",
+      "sha256": "6f08cbf34346050bcb85297ee8b5147ec3a1be7f215b640086b20a5d7dd25901"
     },
     {
-      "path": "webgpu/embodx-8ae2a79b0544421.js",
-      "sha256": "11d5573b81dc14b96e14ad8f726b1c25aa503a3fdf3b3637526e363f9ede016d"
+      "path": "webgpu/embodx-e10edf6d2acb73b1_bg.wasm",
+      "sha256": "8aae1b17e1e36d055981c0c560873f739b9909c0ec092dd54ea1a069fa90ae2f"
+    },
+    {
+      "path": "webgpu/embodx-e10edf6d2acb73b1.js",
+      "sha256": "7d350cf1f9d331f6d875909f1185b7fea3f0f72880926c473ebb2fc3e1fb342f"
     },
     {
       "path": "webgpu/index.html",
-      "sha256": "102311f183842587cbf86e1a0992532affb71bacf6065488cbc8198c13ebab52"
+      "sha256": "9f2316547e59ab6ef42db0de9d757bb8955d67133fed28c729275526ddfa461f"
     },
     {
       "path": "webgpu/snippets/embodx-36cc021a88c3ee36/src/browser_menu.mjs",
