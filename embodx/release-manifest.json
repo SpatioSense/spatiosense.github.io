@@ -5,12 +5,12 @@
     "webgpu",
     "webgl"
   ],
-  "sourceHash": "sha256:a7d59cb2d7cec82c6dc54384415f9ecd93a4854ff6f2abf340ed063fdc199dbf",
+  "sourceHash": "sha256:56f0e9d7162e4444e4a905b47ab9fa3d1bc198c41d498c777b053b3be5455d54",
   "build": {
-    "commit": "d067589ad266f31696c2ee10728a29d5cf4abeab",
+    "commit": "be782fd415a86c6fddcc4d1c2c2d305e9345b2fd",
     "branch": "main",
-    "dirtyAtStart": true,
-    "startedAt": "2026-10-12T10:39:44.403Z",
+    "dirtyAtStart": false,
+    "startedAt": "2026-10-13T22:47:07.608Z",
     "lto": "thin"
   },
   "artifacts": [
@@ -83,20 +83,20 @@
       "sha256": "6f08cbf34346050bcb85297ee8b5147ec3a1be7f215b640086b20a5d7dd25901"
     },
     {
-      "path": "webgl/embodx-c2fd6d6cea9a1520_bg.wasm",
-      "sha256": "745aaeb86e740864d125986119dd752902d3b51ff45fa71cd0e666fa0643bf31"
+      "path": "webgl/embodx-479873011ed8dbc5_bg.wasm",
+      "sha256": "14c5bd751abe4312a4a927c290e20045aae6f22f82193285251cbe81ce397d09"
     },
     {
-      "path": "webgl/embodx-c2fd6d6cea9a1520.js",
-      "sha256": "a368534e369b98e9e54e09db9244b8e6ebf891af16c9be6f2f989035c78c4324"
+      "path": "webgl/embodx-479873011ed8dbc5.js",
+      "sha256": "7e434832282e314bd91e4959aaf1619e308622f4d2c309f7d68ee6e136c5b0cc"
     },
     {
       "path": "webgl/index.html",
-      "sha256": "df36eb3974fc503cef2f0ebc3d024796d2177564a661d9e05aac34ebe9469217"
+      "sha256": "ff4eea74c17a1dc93d4f69c5e854e2701442c56725d549f9c21ee34f6a015855"
     },
     {
       "path": "webgl/snippets/embodx-36cc021a88c3ee36/src/browser_menu.mjs",
-      "sha256": "7defe0635759639a7477789f9c03eb539b65323d900114645c735cec56e815f5"
+      "sha256": "f20c7985b458a9e8af51237de182a1849b31414d2976b81dd39be677ca5eece4"
     },
     {
       "path": "webgl/snippets/embodx-36cc021a88c3ee36/src/gaussian_splatting/splat_link/lod/codec_jobs.mjs",
@@ -104,7 +104,7 @@
     },
     {
       "path": "webgl/sog-codec/snippets/embodx-36cc021a88c3ee36/src/browser_menu.mjs",
-      "sha256": "7defe0635759639a7477789f9c03eb539b65323d900114645c735cec56e815f5"
+      "sha256": "f20c7985b458a9e8af51237de182a1849b31414d2976b81dd39be677ca5eece4"
     },
     {
       "path": "webgl/sog-codec/snippets/embodx-36cc021a88c3ee36/src/gaussian_splatting/splat_link/lod/codec_jobs.mjs",
@@ -187,20 +187,20 @@
       "sha256": "6f08cbf34346050bcb85297ee8b5147ec3a1be7f215b640086b20a5d7dd25901"
     },
     {
-      "path": "webgpu/embodx-99a89d32e42cb305_bg.wasm",
-      "sha256": "5a75cce46df170bf7d1e345e8cefaa4d245939b96648c4ca98953899d94d440c"
+      "path": "webgpu/embodx-d298adc1e5b808d6_bg.wasm",
+      "sha256": "4573d11ad7ce3a6ad1ae522887e9404b5a636d167a11a0d34de1d7f262a9e855"
     },
     {
-      "path": "webgpu/embodx-99a89d32e42cb305.js",
-      "sha256": "ef62fa8397e198690aaf896c3011117bf74e1d0dd5b30dd753528c2e4a546d02"
+      "path": "webgpu/embodx-d298adc1e5b808d6.js",
+      "sha256": "99b84463cd3b99ee84779807189e350d728c28c2ad1dd1145bf56aab2ccc1b4a"
     },
     {
       "path": "webgpu/index.html",
-      "sha256": "ab6a9f98a55f9e0540a42e56d0a249d58999f923a3f8968cb1d0edea9cc1757d"
+      "sha256": "215a2184e298006b24b47612e52d88c01faef2ecbb7b701f46b88ed98953ad1a"
     },
     {
       "path": "webgpu/snippets/embodx-36cc021a88c3ee36/src/browser_menu.mjs",
-      "sha256": "7defe0635759639a7477789f9c03eb539b65323d900114645c735cec56e815f5"
+      "sha256": "f20c7985b458a9e8af51237de182a1849b31414d2976b81dd39be677ca5eece4"
     },
     {
       "path": "webgpu/snippets/embodx-36cc021a88c3ee36/src/gaussian_splatting/splat_link/lod/codec_jobs.mjs",
@@ -208,11 +208,11 @@
     },
     {
       "path": "webgpu/sog-codec/snippets/embodx-36cc021a88c3ee36/src/browser_menu.mjs",
-      "sha256": "7defe0635759639a7477789f9c03eb539b65323d900114645c735cec56e815f5"
+      "sha256": "f20c7985b458a9e8af51237de182a1849b31414d2976b81dd39be677ca5eece4"
     },
     {
       "path": "webgpu/sog-codec/snippets/embodx-36cc021a88c3ee36/src/gaussian_splatting/splat_link/lod/codec_jobs.mjs",
-      "sha256": "cc50367a07d184249368aa047717435588444fb0ac10b55f7b4b45cc021b6174"
+      "sha256": "7e5d8058702c6009363350c44278727a95e0acd5418341dd39ca6ad3efa82ae2"
     },
     {
       "path": "webgpu/sog-codec/sog_codec_bg.wasm",

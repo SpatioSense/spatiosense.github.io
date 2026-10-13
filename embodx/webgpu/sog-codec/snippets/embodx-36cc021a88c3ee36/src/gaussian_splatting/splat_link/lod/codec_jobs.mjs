@@ -265,11 +265,8 @@ export class CodecJobs {
 
 let pool;
 
-export function codec_requested() {
-  return (
-    typeof location !== "undefined" &&
-    new URLSearchParams(location.search).get("sog_decode") !== "serial"
-  );
+export function codec_requested(mode) {
+  return mode !== "serial";
 }
 export function codec_unavailable_reason() {
   return typeof Worker === "undefined" ? "module workers are unavailable" : "";
