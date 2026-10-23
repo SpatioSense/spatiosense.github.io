@@ -1,60 +1,61 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=no"/>
-<meta name="embodx-build" content="dual"/>
-<title>EmbodX</title>
-<style>html,body{margin:0;height:100%;background:#020617;color:#cbd5e1;font-family:sans-serif}
-#m{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);font-size:14px;opacity:.75}</style>
-</head>
-<body>
-<div id="m">Loading EmbodX&hellip;</div>
-<script type="module">
-const params = new URLSearchParams(location.search);
-let backend = params.get("backend");
-const forced = backend === "webgpu" || backend === "webgl";
-async function hasWebGpu() {
-  try {
-    if ("gpu" in navigator && navigator.gpu) {
-      const adapter = await navigator.gpu.requestAdapter();
-      return Boolean(adapter);
+    <html lang="en">
+    <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=no"/>
+    <meta name="embodx-build" content="dual"/>
+    <title>EmbodX</title>
+    <style>html,body{margin:0;height:100%;background:#020617;color:#cbd5e1;font-family:sans-serif}
+    #m{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);font-size:14px;opacity:.75}</style>
+    </head>
+    <body>
+    <div id="m">Loading EmbodX&hellip;</div>
+    <script type="module">
+    const params = new URLSearchParams(location.search);
+    let backend = params.get("backend");
+    const forced = backend === "webgpu" || backend === "webgl";
+    async function hasWebGpu() {
+      try {
+        if ("gpu" in navigator && navigator.gpu) {
+          const adapter = await navigator.gpu.requestAdapter();
+          return Boolean(adapter);
+        }
+      } catch (e) {}
+      return false;
     }
-  } catch (e) {}
-  return false;
-}
-function hasWebGl2() {
-  try {
-    const canvas = document.createElement("canvas");
-    const context = canvas.getContext("webgl2");
-    if (!context) return false;
-    context.getExtension("WEBGL_lose_context")?.loseContext();
-    return true;
-  } catch (e) {
-    return false;
-  }
-}
-function showUnsupported() {
-  document.querySelector("#m").textContent =
-    "EmbodX needs WebGPU, or WebGL2 for point-cloud viewing. Enable hardware acceleration or use a compatible browser.";
-}
-function notifyParent(type, detail) {
-  if (window.parent !== window) {
-    window.parent.postMessage({ type, ...detail }, location.origin);
-  }
-}
-(async () => {
-  const webgpuAvailable = await hasWebGpu();
-  if (!forced) backend = webgpuAvailable ? "webgpu" : "webgl";
-  if ((backend === "webgpu" && !webgpuAvailable) ||
-      (backend === "webgl" && !hasWebGl2())) {
-    notifyParent("embodx:backendUnavailable", { backend });
-    showUnsupported();
-    return;
-  }
-  notifyParent("embodx:backendSelected", { backend, automatic: !forced });
-  location.replace("./" + backend + "/" + location.search + location.hash);
-})();
-</script>
-</body>
-</html>
+    function hasWebGl2() {
+      try {
+        const canvas = document.createElement("canvas");
+        const context = canvas.getContext("webgl2");
+        if (!context) return false;
+        context.getExtension("WEBGL_lose_context")?.loseContext();
+        return true;
+      } catch (e) {
+        return false;
+      }
+    }
+    function showUnsupported() {
+      document.querySelector("#m").textContent =
+        "EmbodX needs WebGPU, or WebGL2 for point-cloud viewing. Enable hardware acceleration or use a compatible browser.";
+    }
+    function notifyParent(type, detail) {
+      if (window.parent !== window) {
+        window.parent.postMessage({ type, ...detail }, location.origin);
+      }
+    }
+    (async () => {
+      const webgpuAvailable = await hasWebGpu();
+      if (!forced) backend = webgpuAvailable ? "webgpu" : "webgl";
+      if ((backend === "webgpu" && !webgpuAvailable) ||
+          (backend === "webgl" && !hasWebGl2())) {
+        notifyParent("embodx:backendUnavailable", { backend });
+        showUnsupported();
+        return;
+      }
+      notifyParent("embodx:backendSelected", { backend, automatic: !forced });
+      location.replace("./" + backend + "/" + location.search + location.hash);
+    })();
+    </script>
+    </body>
+    </html>
+    

@@ -5,18 +5,18 @@
     "webgpu",
     "webgl"
   ],
-  "sourceHash": "sha256:f2bbf47bc460d90ac3979edf314cd1f3b45f01c88466fe9f05cf60137fe466e2",
+  "sourceHash": "sha256:560df3e3fa4a158b6de37d39bb82b61098acd39c2280770b86303d4590f9ed14",
   "build": {
-    "commit": "bc27e88013534c7cb5dafd1dd4361d9478c7fdd2",
+    "commit": "7f748383908a7d3eafec04d88ad034577b7cd4c9",
     "branch": "main",
-    "dirtyAtStart": false,
-    "startedAt": "2026-10-14T06:25:48.125Z",
+    "dirtyAtStart": true,
+    "startedAt": "2026-10-23T02:11:33.008Z",
     "lto": "thin"
   },
   "artifacts": [
     {
       "path": "index.html",
-      "sha256": "c3acbf84068bc0c2fcab42399b40d99e03dab68fc3dffc268e2fb0eaf5bd624d"
+      "sha256": "bb42be98521434c4cde89b5941186b852ebf171adad411110ec05ec6615f2586"
     },
     {
       "path": "webgl/3533add24feff73a-initializer.mjs",
@@ -83,16 +83,16 @@
       "sha256": "6f08cbf34346050bcb85297ee8b5147ec3a1be7f215b640086b20a5d7dd25901"
     },
     {
-      "path": "webgl/embodx-c897817ed1a3c61b_bg.wasm",
-      "sha256": "f108302b47635110bc05bc47ffe712cd77c2af49530416ec2342f4dd4fb81013"
+      "path": "webgl/embodx-748b4f9b36ba4cdb_bg.wasm",
+      "sha256": "6e45fd7458819df730bc982047ee26bc3366991178f35fc9910fe66a046ade85"
     },
     {
-      "path": "webgl/embodx-c897817ed1a3c61b.js",
-      "sha256": "3efb115569516d87ab797d14ec1d05b2206264263243a4d5b3506092fbce301e"
+      "path": "webgl/embodx-748b4f9b36ba4cdb.js",
+      "sha256": "c5a20557ae20757e27eba4fcee740e98bcf97a76bec69b9893d3be6fe52839b2"
     },
     {
       "path": "webgl/index.html",
-      "sha256": "4a9876a61cbef109bfb5a592cde42fdf6ef98ee8717e9f1213de9c744c32d986"
+      "sha256": "bdaebee1ed4c25122d4cb7c5cf4a0451362a19e983dda0f29796f719f8220b37"
     },
     {
       "path": "webgl/snippets/bevy_gaussian_splatting-6cf776f7255c5542/src/render/webgl/sort_jobs.mjs",
@@ -107,6 +107,10 @@
       "sha256": "7e5d8058702c6009363350c44278727a95e0acd5418341dd39ca6ad3efa82ae2"
     },
     {
+      "path": "webgl/snippets/spatiosense_widgets-2a7736543fc3aa32/src/widget/text_input/browser.mjs",
+      "sha256": "ba9ebf27c97a3154a9dab0698b442c97c90d64d24411b415c211daaffa822905"
+    },
+    {
       "path": "webgl/sog-codec/snippets/bevy_gaussian_splatting-6cf776f7255c5542/src/render/webgl/sort_jobs.mjs",
       "sha256": "d8fad96bd457b769ed0020d4389783da0cce32ac9764a0d7ae7e49644299ab2b"
     },
@@ -119,8 +123,12 @@
       "sha256": "7e5d8058702c6009363350c44278727a95e0acd5418341dd39ca6ad3efa82ae2"
     },
     {
+      "path": "webgl/sog-codec/snippets/spatiosense_widgets-2a7736543fc3aa32/src/widget/text_input/browser.mjs",
+      "sha256": "ba9ebf27c97a3154a9dab0698b442c97c90d64d24411b415c211daaffa822905"
+    },
+    {
       "path": "webgl/sog-codec/sog_codec_bg.wasm",
-      "sha256": "d7e3d880a6603345b38ccb1661ebc00cbf005786c946bbe21b705f85b489eb6f"
+      "sha256": "7d757956c4e7d5afccf77a11f1879cab00d6f61ac8025bc76a118ad236e2e8e5"
     },
     {
       "path": "webgl/sog-codec/sog_codec.js",
@@ -147,8 +155,12 @@
       "sha256": "7e5d8058702c6009363350c44278727a95e0acd5418341dd39ca6ad3efa82ae2"
     },
     {
+      "path": "webgl/splat-sort/snippets/spatiosense_widgets-2a7736543fc3aa32/src/widget/text_input/browser.mjs",
+      "sha256": "ba9ebf27c97a3154a9dab0698b442c97c90d64d24411b415c211daaffa822905"
+    },
+    {
       "path": "webgl/splat-sort/splat_sort_bg.wasm",
-      "sha256": "ad8d501c47791e6c20ddb31670d24b6e41977f2d592da39601369b850fd743fe"
+      "sha256": "82e2375f15458693f5d5fc00616a6f8e242cff0bb8f5d3abac438a28d85f3772"
     },
     {
       "path": "webgl/splat-sort/splat_sort.js",
@@ -219,16 +231,16 @@
       "sha256": "6f08cbf34346050bcb85297ee8b5147ec3a1be7f215b640086b20a5d7dd25901"
     },
     {
-      "path": "webgpu/embodx-e8c0f06664afdfb6_bg.wasm",
-      "sha256": "b673b863c04a20ce0a8b8c7bea6082ea34855dcde3e1e566500bbeddc3750329"
+      "path": "webgpu/embodx-de92642de9b88e84_bg.wasm",
+      "sha256": "52c61c261fc2b60298dca784291cca40f60938b2253f17464a7c89c0f9a87513"
     },
     {
-      "path": "webgpu/embodx-e8c0f06664afdfb6.js",
-      "sha256": "7a66c5f9a084c0981d08b828f479778486e5e29172b6a72bbc6341309c24e431"
+      "path": "webgpu/embodx-de92642de9b88e84.js",
+      "sha256": "8c14e8e20bdb43f74bd00a876947fcd10377e0d4328a847ab311d91160442cf3"
     },
     {
       "path": "webgpu/index.html",
-      "sha256": "c82e23fd3608f3541b7e7975a2d76379774d0adebfc37af7810a91cc25bc25dc"
+      "sha256": "86d5ed803e65ec93461b192cdc64aab1b68c17c7f1db150f61853f6dbfa7d942"
     },
     {
       "path": "webgpu/snippets/bevy_gaussian_splatting-6cf776f7255c5542/src/render/webgl/sort_jobs.mjs",
@@ -243,16 +255,12 @@
       "sha256": "7e5d8058702c6009363350c44278727a95e0acd5418341dd39ca6ad3efa82ae2"
     },
     {
-      "path": "webgpu/sog-codec/snippets/embodx-36cc021a88c3ee36/src/browser_menu.mjs",
-      "sha256": "f20c7985b458a9e8af51237de182a1849b31414d2976b81dd39be677ca5eece4"
-    },
-    {
-      "path": "webgpu/sog-codec/snippets/embodx-36cc021a88c3ee36/src/gaussian_splatting/splat_link/lod/codec_jobs.mjs",
-      "sha256": "7e5d8058702c6009363350c44278727a95e0acd5418341dd39ca6ad3efa82ae2"
+      "path": "webgpu/snippets/spatiosense_widgets-2a7736543fc3aa32/src/widget/text_input/browser.mjs",
+      "sha256": "ba9ebf27c97a3154a9dab0698b442c97c90d64d24411b415c211daaffa822905"
     },
     {
       "path": "webgpu/sog-codec/sog_codec_bg.wasm",
-      "sha256": "d7e3d880a6603345b38ccb1661ebc00cbf005786c946bbe21b705f85b489eb6f"
+      "sha256": "7d757956c4e7d5afccf77a11f1879cab00d6f61ac8025bc76a118ad236e2e8e5"
     },
     {
       "path": "webgpu/sog-codec/sog_codec.js",
@@ -267,16 +275,8 @@
       "sha256": "bb60eeb069144d690b4fb3b217e96a846342d1234d66adfc2a5333c86c5129c6"
     },
     {
-      "path": "webgpu/splat-sort/snippets/embodx-36cc021a88c3ee36/src/browser_menu.mjs",
-      "sha256": "f20c7985b458a9e8af51237de182a1849b31414d2976b81dd39be677ca5eece4"
-    },
-    {
-      "path": "webgpu/splat-sort/snippets/embodx-36cc021a88c3ee36/src/gaussian_splatting/splat_link/lod/codec_jobs.mjs",
-      "sha256": "7e5d8058702c6009363350c44278727a95e0acd5418341dd39ca6ad3efa82ae2"
-    },
-    {
       "path": "webgpu/splat-sort/splat_sort_bg.wasm",
-      "sha256": "ad8d501c47791e6c20ddb31670d24b6e41977f2d592da39601369b850fd743fe"
+      "sha256": "82e2375f15458693f5d5fc00616a6f8e242cff0bb8f5d3abac438a28d85f3772"
     },
     {
       "path": "webgpu/splat-sort/splat_sort.js",
