@@ -1,6 +1,6 @@
 {
-  "name": "EmbodX - Construction AI (by SpatioSense)",
-  "short_name": "EmbodX",
+  "name": "SpatioSense - Construction AI",
+  "short_name": "SpatioSense",
   "description": "Advanced construction management platform with AI-powered defect detection and project monitoring",
   "start_url": "/",
   "display": "standalone",

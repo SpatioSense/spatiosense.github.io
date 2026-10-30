@@ -125,7 +125,7 @@ export function sort_create(positions, version) {
       url.searchParams.set("v", version);
       return new Worker(url, { type: "module", name: "Gaussian Rust depth sorter" });
     }, () => wake());
-    globalThis.__EMBODX_GAUSSIAN_SORT__ = jobs.stats;
+    globalThis.__DIMENSIFY_GAUSSIAN_SORT__ = jobs.stats;
   }
   return jobs.create(positions);
 }
